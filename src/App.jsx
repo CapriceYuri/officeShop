@@ -1,8 +1,10 @@
+import Navigation from "./Components/Navigation/navigation"
+
 function App() {
 
   return (
     <>
-    <h1>HELLO</h1>
+    <Navigation/>
     </>
   )
 }
