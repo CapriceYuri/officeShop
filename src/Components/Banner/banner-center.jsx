@@ -6,7 +6,7 @@ function BannerCenter() {
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <img
           className="mx-auto h-40 rounded-3xl"
-          src="src/Images/banner-logo1.png"
+          src="./src/assets/banner-logo1.png"
           alt=""
         />
         <figure className="mt-5">
@@ -21,7 +21,7 @@ function BannerCenter() {
           <figcaption className="mt-5">
             <img
               className="mx-auto h-10 w-10 rounded-full"
-              src="src/Images/banner-pfp.png"
+              src="./src/assets/banner-pfp.png"
               alt=""
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
