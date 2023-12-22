@@ -2,7 +2,7 @@ import products from "../data-products";
 
 function Cards() {
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-r from-orange-300 to-indigo-300">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
           Trending Products
@@ -21,7 +21,7 @@ function Cards() {
 
               <div className="mt-4 flex justify-between">
                 <div>
-                  <h3 className="text-sm text-gray-700 font-medium hover:text-orange-600">
+                  <h3 className="text-sm text-gray-700 font-medium hover:text-purple-700 hover:font-bold">
                     <a href={product.href}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}

@@ -27,8 +27,7 @@ const features = [
 
 function BannerTop() {
   return (
-    <div className="p-4">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-orange-300 to-indigo-300 opacity-70" />
+    <div className="py-10 mb-1 bg-gradient-to-r from-orange-300 to-indigo-300">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
@@ -42,7 +41,8 @@ function BannerTop() {
             for swift delivery today. Elevate your surroundings instantly.
           </p>
         </div>
-        <div className="mx-auto max-w-2xl">
+
+        <div className="mx-auto m-10 max-w-2xl lg:mt-20 lg:max-w-4xl">
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">

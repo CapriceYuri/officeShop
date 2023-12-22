@@ -1,7 +1,7 @@
 function BannerCenter() {
   return (
-    <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-10 lg:px-8">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-orange-300 to-indigo-300 opacity-70" />
+    <section className="relative isolate overflow-hidden px-6 py-24 sm:py-10 lg:px-8 mb-1">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-orange-300 to-indigo-300" />
 
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <img

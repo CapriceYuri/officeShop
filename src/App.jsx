@@ -1,6 +1,7 @@
 import Navigation from "./Components/Navigation/navigation";
 import BannerTop from "./Components/Banner/banner-top";
 import BannerCenter from "./Components/Banner/banner-center";
+import BannerBottom from "./Components/Banner/banner-bottom";
 
 let obj = [
   { name: "Home", href: "/techShop/", current: true },
@@ -13,6 +14,7 @@ function App() {
       <Navigation navLocation={obj} />
       <BannerTop />
       <BannerCenter />
+      <BannerBottom />
     </>
   );
 }
