@@ -1,5 +1,9 @@
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  ShoppingCartIcon,
+} from "@heroicons/react/24/outline";
 import { FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -28,9 +32,8 @@ function Navigation({ navLocation }) {
 
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center">
                 <div className="flex flex-shrink-0 items-center">
-                  <FaReact className="h-8 w-auto text-slate-200" />
+                  <FaReact className="h-8 w-auto text-slate-200 hidden sm:block" />
                 </div>
-
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navLocation.map((item) => (
@@ -50,6 +53,12 @@ function Navigation({ navLocation }) {
                     ))}
                   </div>
                 </div>
+                <button
+                  type="button"
+                  className="relative rounded-full bg-white p-1 sm:ml-6"
+                >
+                  <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
+                </button>
               </div>
             </div>
           </div>
