@@ -1,5 +1,5 @@
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -59,7 +59,7 @@ function Navigation({ navLocation }) {
               {navLocation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as="Link"
+                  as={Link}
                   to={item.href}
                   className={classNames(
                     item.current
