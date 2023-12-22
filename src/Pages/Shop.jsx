@@ -2,8 +2,8 @@ import Navigation from "../Components/Navigation/navigation";
 import Card from "../Components/Card/card";
 
 let obj = [
-  { name: "Home", href: "/techShop/", current: false },
-  { name: "Shop", href: "/techShop/Shop", current: true },
+  { name: "Home", href: "/officeShop/", current: false },
+  { name: "Shop", href: "/officeShop/Shop", current: true },
 ];
 
 function Shop() {

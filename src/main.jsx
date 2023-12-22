@@ -1,28 +1,25 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
 
-import Shop from './Pages/Shop.jsx'
+import Shop from "./Pages/Shop.jsx";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/techShop/",
-    element: <App/>,
+    path: "/officeShop/",
+    element: <App />,
   },
   {
-    path: "/techShop/Shop",
-    element: <Shop/>,
+    path: "/officeShop/Shop",
+    element: <Shop />,
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
-  )
+);

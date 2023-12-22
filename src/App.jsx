@@ -4,8 +4,8 @@ import BannerCenter from "./Components/Banner/banner-center";
 import BannerBottom from "./Components/Banner/banner-bottom";
 
 let obj = [
-  { name: "Home", href: "/techShop/", current: true },
-  { name: "Shop", href: "/techShop/Shop", current: false },
+  { name: "Home", href: "/officeShop/", current: true },
+  { name: "Shop", href: "/officeShop/Shop", current: false },
 ];
 
 function App() {
