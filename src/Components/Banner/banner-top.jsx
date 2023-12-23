@@ -28,13 +28,13 @@ const features = [
 function BannerTop() {
   return (
     <div className="py-10 mb-1 bg-gradient-to-r from-orange-300 to-indigo-300">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:text-center">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-2xl lg:text-center border-4 rounded-3xl p-4">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
             What Are You Waiting For? Start Browsing
           </h2>
           <p className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Upgrade Your Space, Upgrade Your Life
+            Upgrade Your Space & Life
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Transform your space now! Order our stylish, high-quality furniture
@@ -42,7 +42,7 @@ function BannerTop() {
           </p>
         </div>
 
-        <div className="mx-auto m-10 max-w-2xl lg:mt-20 lg:max-w-4xl">
+        <div className="mx-auto mb-10 max-w-2xl mt-10 lg:max-w-4xl border-4 rounded-3xl p-4">
           <dl className="grid grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">

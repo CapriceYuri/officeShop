@@ -25,9 +25,9 @@ const footerItem = [
 function BannerBottom() {
   return (
     <div className="p-20 bg-gradient-to-r from-orange-300 to-indigo-300">
-      <div className="mx-auto max-w-5xl divide-y divide-gray-500 lg:flex lg:justify-center lg:divide-x lg:divide-y-0">
+      <div className="mx-auto max-w-5xl divide-y divide-gray-500 lg:flex lg:justify-center lg:divide-x lg:divide-y-0 border-4 rounded-3xl p-2">
         {footerItem.map((item, index) => (
-          <div key={index} className="py-6 lg:w-1/3 lg:flex-none lg:py-0">
+          <div key={index} className="p-4 lg:w-1/3 lg:flex-none">
             <div className="mx-auto flex max-w-xs items-center px-4 lg:max-w-none lg:px-8">
               <item.icon
                 className="h-8 w-8 flex-shrink-0 text-indigo-600"

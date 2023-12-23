@@ -2,13 +2,13 @@ import products from "../data-products";
 
 function Cards() {
   return (
-    <div className="bg-gradient-to-r from-orange-300 to-indigo-300">
-      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+    <div className="bg-gradient-to-r from-orange-300 to-indigo-300 p-10">
+      <div className="mx-auto max-w-2xl lg:max-w-7xl lg:px-8 border-4 p-10 rounded-3xl">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900 border-4 p-4 rounded-3xl">
           Trending Products
         </h2>
 
-        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 border-4 p-4 rounded-3xl">
           {products.map((product) => (
             <div key={product.id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-80 lg:h-80">

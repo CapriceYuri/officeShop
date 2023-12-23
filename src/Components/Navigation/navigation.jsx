@@ -11,6 +11,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+const navigation = [
+  { name: "Home", href: "/officeShop", id: 1 },
+  { name: "Shop", href: "/officeShop/Shop", id: 1 },
+  { name: "Cart", href: "/officeShop/Cart", id: 1 },
+];
+
 function Navigation({ navLocation }) {
   return (
     <Disclosure as="nav" className="bg-gray-800">
@@ -65,9 +71,9 @@ function Navigation({ navLocation }) {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navLocation.map((item) => (
+              {navigation.map((item) => (
                 <Disclosure.Button
-                  key={item.name}
+                  key={item.id}
                   as={Link}
                   to={item.href}
                   className={classNames(
