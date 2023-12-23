@@ -21,8 +21,8 @@ function Cards() {
 
               <div className="mt-4 flex justify-between">
                 <div>
-                  <h3 className="text-sm text-gray-700 font-medium hover:text-purple-700 hover:font-bold">
-                    <a href={product.href}>
+                  <h3 className="text-sm text-gray-700 font-medium">
+                    <a>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}
                     </a>

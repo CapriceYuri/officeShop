@@ -2,7 +2,6 @@ const products = [
   {
     id: 1,
     name: "Classic Office Chair",
-    href: "#",
     imageSrc: "./office-chair1.png",
     imageAlt: "Office Chair in black",
     price: "$99",
@@ -11,7 +10,6 @@ const products = [
   {
     id: 2,
     name: "Classic Office Chair",
-    href: "#",
     imageSrc: "./office-chair2.png",
     imageAlt: "Office Chair in grey",
     price: "$99",
@@ -20,7 +18,6 @@ const products = [
   {
     id: 3,
     name: "Premium Office Chair",
-    href: "#",
     imageSrc: "./office-chair3.png",
     imageAlt: "Office Chair in beige/white",
     price: "$199",
@@ -29,7 +26,6 @@ const products = [
   {
     id: 4,
     name: "Elite Office Chair",
-    href: "#",
     imageSrc: "./office-chair4.png",
     imageAlt: "Office Chair in beige",
     price: "$249",
@@ -38,7 +34,6 @@ const products = [
   {
     id: 5,
     name: "Classic Work Desk",
-    href: "#",
     imageSrc: "./standingdesk-white.png",
     imageAlt: "Adjustable Desk in white.",
     price: "$199",
@@ -47,7 +42,6 @@ const products = [
   {
     id: 6,
     name: "Adjustable Work Desk",
-    href: "#",
     imageSrc: "./cornerdesk-white.png",
     imageAlt: "Corner Left Adjustable Desk in white.",
     price: "$249",
@@ -56,7 +50,6 @@ const products = [
   {
     id: 7,
     name: "Adjustable Work Desk",
-    href: "#",
     imageSrc: "./cornerdesk-black.png",
     imageAlt: "Corner Left Adjustable Desk in black.",
     price: "$249",
@@ -65,7 +58,6 @@ const products = [
   {
     id: 8,
     name: "Heavy Adjustable Work Desk",
-    href: "#",
     imageSrc: "./standingdesk-black.png",
     imageAlt: "Heavy Duty Adjustable Desk in black.",
     price: "$349",
@@ -74,7 +66,6 @@ const products = [
   {
     id: 9,
     name: "Classic Workstation",
-    href: "#",
     imageSrc: "./workstation-corner.png",
     imageAlt: "Desk Mat in white.",
     price: "$249",
@@ -83,7 +74,6 @@ const products = [
   {
     id: 10,
     name: "Classic Workstation",
-    href: "#",
     imageSrc: "./workstation-cornerblack.png",
     imageAlt: "Desk Mat in white.",
     price: "$249",
@@ -92,7 +82,6 @@ const products = [
   {
     id: 11,
     name: "Prime Workstation",
-    href: "#",
     imageSrc: "./workstation-linear.png",
     imageAlt: "Desk Mat in white.",
     price: "$349",
@@ -101,7 +90,6 @@ const products = [
   {
     id: 12,
     name: "Elite Prime Workstation",
-    href: "#",
     imageSrc: "./workstation-compact.png",
     imageAlt: "Desk Mat in white.",
     price: "$499",
@@ -110,7 +98,6 @@ const products = [
   {
     id: 13,
     name: "Classic Table Lamp",
-    href: "#",
     imageSrc: "./lamp-classic.png",
     imageAlt: "Table Lamp",
     price: "$29",
@@ -119,7 +106,6 @@ const products = [
   {
     id: 14,
     name: "Steel Table Lamp",
-    href: "#",
     imageSrc: "./lamp-serie2.png",
     imageAlt: "Table Lamp in silver",
     price: "$39",
@@ -128,7 +114,6 @@ const products = [
   {
     id: 15,
     name: "Wooden Table Lamp",
-    href: "#",
     imageSrc: "./lamp-serie3.png",
     imageAlt: "Table Lamp in wood.",
     price: "$39",
@@ -137,7 +122,6 @@ const products = [
   {
     id: 16,
     name: "Glass Table Lamp",
-    href: "#",
     imageSrc: "./lamp-special.png",
     imageAlt: "Table Lamp in glass.",
     price: "$49",
